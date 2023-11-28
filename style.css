@@ -1,0 +1,318 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background: black; */
+}
+#parent{
+    background: #212529;
+}
+.contai{
+    margin-left: 85px;
+    margin-right: 85px;
+    background-color:#212529;
+    color: white;
+}
+.contai{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contai span{
+    color: #ffc107;
+    text-decoration: none;
+}
+.contai img{
+    width: 600px;
+    height: 600px;
+}
+#start{
+    color: white;
+    padding: 15px;
+    background: #0d6efd;
+    border: none;
+    float: left;
+    border-radius: 6px;
+    
+}
+.contain{
+    background: #0d6efd;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contain h2{
+    color: white;
+}
+.contain #email{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 23px;
+    padding-right: 290px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+}
+.contain button{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    background: #212529;
+    color: white;
+    padding: 15px;
+    padding-right: 28px;
+    font-size: 18px;
+}
+.contain{
+    padding: 25px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.flex .card{
+    background-color: #212529;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    width: 400px;
+    height: 300px;
+    color: white;
+    padding: 16px;
+}
+.flex .dolor{
+    background-color: gray;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    width: 400px;
+    height: 300px;
+    color: white;
+    padding: 16px;
+
+}
+.flex .card button{
+    color: #fff;
+    border: #0d6efd;
+    background: #0d6efd;
+    padding: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 10px;
+}
+.flex .dolor button{
+    color: #fff;
+    border: #0d6efd;
+    background: #0d6efd;
+    padding: 13px;
+    margin-left: 110px;
+    margin-right: 110px;
+    border-radius: 10px;
+}
+.change{
+    font-size: 50px;
+}
+#fundamentals{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.Learn img{
+    width: 600px;
+    height: 600px;
+}
+.lorem{
+    margin-top: 180px;
+}
+.lorem button{
+    border: none;
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    padding: 10px;
+}
+#fundamental{
+    background-color: #212529;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.lore{
+    margin-top: 180px;
+    margin-left: 80px;
+}
+.lore button{
+    border: none;
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+}
+.Lear img{
+    width: 600px;
+    height: 600px;
+}
+/* .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+} */
+#details{
+    margin: 20px;
+}
+#instructors{
+    color: #fff;
+    background-color: #0d6efd;
+}
+#instructors .oure{
+    text-align: center;
+    padding-top: 32px;
+}
+.expert{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.text img{
+    margin-top: 19px;
+    border-radius: 70px;
+}
+.text{
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    width: 350px;
+    height: 350px;
+    color: #000;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+h6{
+    padding-top: 14px;
+}
+.add{
+    margin: 5px;
+}
+#contact h4{
+    text-align: center;
+}
+#contact ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+#contact ul li{
+    font-weight: bold;
+}
+#copy{
+    background: #000;
+    width: 100%;
+    height: 90px;
+    color: #fff;
+    
+}
+#copy p{
+    padding-top: 30px;
+    text-align: center;
+}
+.pare{
+    border-radius: 50px;
+    border: none;
+    background: #0d6efd;
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    position: relative;
+    bottom: 80px;
+}
+@media (max-width:1200px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media (max-width:800px) {
+    .contain #email{
+        padding-left: 14px;
+        padding-right: 40px;
+    }
+    .contain{
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+}
+
+@media (max-width:1200px) {
+    .contain #email{
+        border-radius: 5px;
+    }
+}
+@media (max-width:1200px) {
+    .contain button{
+        border-radius: 5px;
+    }
+}
+@media (max-width:1200px) {
+    .contain{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:1200px) {
+    .contai{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width:1200px) {
+    .flex{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-right: 140px;
+        margin-left: 140px;
+    }
+    
+}
+@media (max-width:1200px) {
+    #fundamentals{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width:1200px) {
+    #fundamental{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:1200px) {
+    .expert{
+        display: flex;
+        flex-direction: column;
+    }
+}
