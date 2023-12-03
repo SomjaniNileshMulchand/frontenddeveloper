@@ -1,131 +1,132 @@
 body{
     margin: 0;
     padding: 0;
-    /* background: black; */
+    box-sizing: border-box;
 }
-#parent{
-    background: #212529;
-}
-.contai{
-    margin-left: 85px;
-    margin-right: 85px;
-    background-color:#212529;
-    color: white;
-}
-.contai{
+
+
+#child{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    background: #212529;
+    color: #fff;
 }
-.contai span{
+#chil{
+    margin-top: 10rem;
+    width: 600px;
+    
+}
+#child #left{
+    margin-right: 4.9rem;
+}
+#left{
+    padding-top: 12rem;
+}
+span{
     color: #ffc107;
     text-decoration: none;
-}
-.contai img{
-    width: 600px;
-    height: 600px;
 }
 #start{
     color: white;
     padding: 15px;
     background: #0d6efd;
     border: none;
-    float: left;
     border-radius: 6px;
+    float: left;
     
 }
-.contain{
+#start:hover{
+    background-color: rgb(11, 92, 92);
+}
+#sign{
+    padding: 40px;
+}
+#sign{
     background: #0d6efd;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.contain h2{
+#sign .for{
     color: white;
 }
-.contain #email{
+.signemail #email{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    padding-left: 23px;
-    padding-right: 290px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    width: 38.5rem;
+    height: 3.5rem;
+    padding-left: 20px;
     border: none;
 }
-.contain button{
+.signemail button{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border: none;
     background: #212529;
     color: white;
     padding: 15px;
-    padding-right: 28px;
+    padding-right: 30px;
     font-size: 18px;
 }
-.contain{
-    padding: 25px;
-}
-.flex{
+#flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
+    background: #fff;
+    
 }
-.flex .card{
-    background-color: #212529;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 50px;
-    width: 400px;
-    height: 300px;
-    color: white;
-    padding: 16px;
+#flex .card{
+    margin-top: 3.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #212529;
+    color: #fff;
+    width: 25.5rem;
+    padding-bottom: 1rem;
 }
-.flex .dolor{
-    background-color: gray;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 50px;
-    width: 400px;
-    height: 300px;
-    color: white;
-    padding: 16px;
-
+#flex .card.color{
+    margin-top: 3.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #727a82;
+    color: #fff;
+    width: 25.5rem;
+    padding-bottom: 1rem;
 }
-.flex .card button{
+#flex .card button{
     color: #fff;
     border: #0d6efd;
     background: #0d6efd;
-    padding: 10px;
-    margin-left: 120px;
-    margin-right: 120px;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
     border-radius: 10px;
 }
-.flex .dolor button{
-    color: #fff;
-    border: #0d6efd;
-    background: #0d6efd;
-    padding: 13px;
-    margin-left: 110px;
-    margin-right: 110px;
-    border-radius: 10px;
-}
-.change{
+.size{
     font-size: 50px;
 }
 #fundamentals{
     display: flex;
-    justify-content: space-between;
-    margin-right: 20px;
-    margin-left: 20px;
+    justify-content: center;
+    background-color: #fff;
+}
+.Learn{
+    margin-right: 2.9rem;
 }
 .Learn img{
     width: 600px;
     height: 600px;
 }
 .lorem{
-    margin-top: 180px;
+    margin-top: 12.8rem;
+}
+.lorem button:hover{
+    background-color: #fff;
 }
 .lorem button{
+    border-radius: 5px;
     border: none;
     color: #000;
     background-color: #f8f9fa;
@@ -133,64 +134,50 @@ body{
     padding: 10px;
 }
 #fundamental{
-    background-color: #212529;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     color: #fff;
+    background-color: #212529;
 }
-.lore{
-    margin-top: 180px;
-    margin-left: 80px;
+.lore button:hover{
+    background-color: #e9aaaa;
 }
 .lore button{
+    border-radius: 5px;
     border: none;
     color: #000;
     background-color: #f8f9fa;
     border-color: #f8f9fa;
     padding: 10px;
-    border-radius: 4px;
 }
 .Lear img{
     width: 600px;
-    height: 600px;
+    height: 550px;
 }
-/* .accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
+.lore{
+    margin-top: 12.8rem;
 }
-.active, .accordion:hover {
-    background-color: #ccc; 
+
+.questions h1{
+    margin-top: 40px;
+    text-align: center;
 }
-.panel {
-    padding: 0 18px;
-    display: none;
-    background-color: white;
-    overflow: hidden;
-} */
-#details{
-    margin: 20px;
+.answer{
+    margin: 1rem;
 }
 #instructors{
     color: #fff;
     background-color: #0d6efd;
-}
-#instructors .oure{
     text-align: center;
-    padding-top: 32px;
 }
 .expert{
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: center;
+}
+h6{
+    padding-top: 14px;
 }
 .text img{
     margin-top: 19px;
@@ -207,107 +194,114 @@ body{
     margin-right: 35px;
     margin-bottom: 20px;
 }
-h6{
-    padding-top: 14px;
-}
 .add{
     margin: 5px;
 }
-#contact h4{
-    text-align: center;
+@media (max-width:1200px) {
+    #chil{
+        display: none;
+    }
 }
-#contact ul{
-    list-style-type: none;
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
-}
-#contact ul li{
-    font-weight: bold;
-}
-#copy{
-    background: #000;
-    width: 100%;
-    height: 90px;
-    color: #fff;
-    
-}
-#copy p{
-    padding-top: 30px;
-    text-align: center;
-}
-.pare{
-    border-radius: 50px;
-    border: none;
+@media (max-width:600px) {
+    #child #left #start{
+    color: white;
+    padding: 15px;
     background: #0d6efd;
-    color: #fff;
-    text-decoration: none;
-    float: right;
-    position: relative;
-    bottom: 80px;
+    border: none;
+    border-radius: 6px;
+    width: 12.9rem;
+    height: 3.5rem;
+
+    }
 }
 @media (max-width:1200px) {
-    body{
-        margin-left: 10px;
-        margin-right: 10px;
+    #sign{
+        margin-top: 20px;
+        
+    }
+    
+}
+@media (max-width:1200px) {
+    #sign{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
     }
 }
 @media (max-width:800px) {
-    .contain #email{
-        padding-left: 14px;
-        padding-right: 40px;
+    .signemail #email{
+        width: 25rem;
+        height: 3.5rem;
     }
-    .contain{
-        margin-top: 10px;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    
-}
 
-@media (max-width:1200px) {
-    .contain #email{
-        border-radius: 5px;
+}
+@media (max-width:600px) {
+    .signemail #email{
+        width: 9rem;
+        height: 3.5rem;
     }
 }
-@media (max-width:1200px) {
-    .contain button{
-        border-radius: 5px;
-    }
-}
-@media (max-width:1200px) {
-    .contain{
+@media (max-width:1300px) {
+    #flex{
         display: flex;
-        flex-direction: column;
-    }
-}
-@media (max-width:1200px) {
-    .contai{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-}
-@media (max-width:1200px) {
-    .flex{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
         align-items: center;
-        margin-right: 140px;
-        margin-left: 140px;
+        flex-direction: column;
+    }
+}
+@media (max-width:600px) {
+    #flex .card{
+        margin-top: 3.5rem;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: #212529;
+        color: #fff;
+        width: 19rem;
+        padding-bottom: 1rem;
+    }
+    #flex .card.color{
+        margin-top: 3.5rem;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: #727a82;
+        color: #fff;
+        width: 19rem;
+        padding-bottom: 1rem;
     }
     
 }
 @media (max-width:1200px) {
     #fundamentals{
         display: flex;
-        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
-}
-@media (max-width:1200px) {
     #fundamental{
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
+    }
+}
+@media (max-width:800px) {
+    #fundamentals .Learn img{
+        margin-top: 80px;
+        width: 400px;
+        height: 200px;
+
+    }
+    #fundamentals .lorem{
+        margin-left: 10px;
+    }
+    #fundamental .Lear img{
+        margin-top: 40px;
+        width: 336px;
+        height: 200px;
+    }
+    #fundamental .lore{
+        margin-left: 10px;
     }
 }
 @media (max-width:1200px) {
