@@ -3,8 +3,12 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-
-
+body::before
+{
+	content: '';
+	display: block;
+	height: 60px;
+}
 #child{
     display: flex;
     align-items: center;
@@ -15,7 +19,6 @@ body{
 #chil{
     margin-top: 10rem;
     width: 600px;
-    
 }
 #child #left{
     margin-right: 4.9rem;
@@ -34,7 +37,6 @@ span{
     border: none;
     border-radius: 6px;
     float: left;
-    
 }
 #start:hover{
     background-color: rgb(11, 92, 92);
@@ -74,7 +76,6 @@ span{
     justify-content: center;
     text-align: center;
     background: #fff;
-    
 }
 #flex .card{
     margin-top: 3.5rem;
@@ -157,7 +158,6 @@ span{
 .lore{
     margin-top: 12.8rem;
 }
-
 .questions h1{
     margin-top: 40px;
     text-align: center;
@@ -196,6 +196,29 @@ h6{
 }
 .add{
     margin: 5px;
+}
+#contact h1{
+    margin-top: 15px;
+    text-align: center;
+}
+ul li code{
+    color: #000;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+}
+#copy{
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a i {
+    font-size: 35px;
 }
 @media (max-width:1200px) {
     #chil{
@@ -241,29 +264,6 @@ h6{
     .lorem button:hover{
         background-color: #fff;
     }
-}
-#contact h1{
-    margin-top: 15px;
-    text-align: center;
-}
-ul li code{
-    color: #000;
-}
-ul{
-    text-align: center;
-    list-style-type: none;
-}
-#copy{
-    padding-top: 2rem;
-    padding-bottom: 1.5rem;
-    color: #fff;
-    background: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-a i {
-    font-size: 35px;
 }
 @media (max-width:1200px) {
     #sign{
