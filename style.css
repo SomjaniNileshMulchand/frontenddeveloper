@@ -201,6 +201,24 @@ h6{
     #chil{
         display: none;
     }
+    #start:hover{
+        background-color: rgb(45, 168, 168);
+    }
+    .lorem button:hover{
+        background-color: #fff;
+    }
+}
+@media (max-width:1175px) {
+    #start:hover{
+        background-color: rgb(11, 92, 92);
+    }
+    #start{
+        margin-bottom: 10px;
+    }
+    .lorem button:hover{
+        background-color: #fff;
+    }
+    
 }
 @media (max-width:600px) {
     #child #left #start{
@@ -213,11 +231,43 @@ h6{
     height: 3.5rem;
 
     }
+    #start:hover{
+        background-color: rgb(11, 92, 92);
+    }
+    #left {
+        margin-left: 10px;
+        margin-bottom: 10px
+    }
+    .lorem button:hover{
+        background-color: #fff;
+    }
+}
+#contact h1{
+    margin-top: 15px;
+    text-align: center;
+}
+ul li code{
+    color: #000;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+}
+#copy{
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a i {
+    font-size: 35px;
 }
 @media (max-width:1200px) {
     #sign{
         margin-top: 20px;
-        
     }
     
 }
@@ -303,6 +353,36 @@ h6{
     #fundamental .lore{
         margin-left: 10px;
     }
+}
+@media (max-width:400px) {
+    .expert{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+    h6{
+        padding-top: 14px;
+    }
+    .text img{
+        margin-top: 19px;
+        border-radius: 70px;
+    }
+    .text{
+        border-radius: 10px;
+        background-color: #f8f9fa;
+        width: 300px;
+        height: 350px;
+        color: #000;
+        margin-top: 10px;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-bottom: 20px;
+    }
+    .add{
+        margin: 5px;
+    }
+    
 }
 @media (max-width:1200px) {
     .expert{
