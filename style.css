@@ -296,7 +296,7 @@ a i {
 }
 @media (max-width:600px) {
     .signemail #email{
-        width: 10rem;
+        width: 9.5rem;
         height: 3.5rem;
     }
 }
