@@ -218,6 +218,12 @@ ul{
 a i {
     font-size: 35px;
 }
+@media (max-width:1200px) and (min-width:600px) {
+    #child #left{
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}
 @media (max-width:1200px) {
     #chil{
         display: none;
@@ -290,7 +296,7 @@ a i {
 }
 @media (max-width:600px) {
     .signemail #email{
-        width: 12rem;
+        width: 11.5rem;
         height: 3.5rem;
     }
 }
