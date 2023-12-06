@@ -228,6 +228,9 @@ a i {
     .lorem button:hover{
         background-color: #0d6efd;
     }
+    #child #left{
+        padding-top: 2rem;
+    }
 }
 @media (max-width:1200px) {
     #start:hover{
@@ -338,10 +341,11 @@ a i {
         margin-top: 80px;
         width: 400px;
         height: 200px;
-
     }
     #fundamentals .lorem{
         margin-left: 10px;
+        margin-right: 5px;
+        margin-top: 1rem;
     }
     .lorem button{
         margin-bottom: 12px;
@@ -356,6 +360,8 @@ a i {
     }
     #fundamental .lore{
         margin-left: 10px;
+        margin-right: 5px;
+        margin-top: 1rem;
     }
 }
 @media (max-width:400px) {
