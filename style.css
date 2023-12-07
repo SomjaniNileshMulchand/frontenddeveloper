@@ -170,17 +170,25 @@ span{
 }
 .answer{
     margin: 1rem;
+    /* margin-left: 8rem; */
+    padding-left: 7rem;
 }
 #instructors{
     color: #fff;
     background-color: #0d6efd;
     text-align: center;
 }
+/* .expert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */
 .expert{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    text-align: center;
+    justify-content: center;
+    gap: 1rem;
 }
 h6{
     padding-top: 14px;
@@ -192,13 +200,13 @@ h6{
 .text{
     border-radius: 10px;
     background-color: #f8f9fa;
-    width: 350px;
+    width: 305px;
     height: 350px;
     color: #000;
-    margin-top: 10px;
+    /* margin-top: 10px;
     margin-left: 35px;
-    margin-right: 35px;
-    margin-bottom: 20px;
+    margin-right: 35px;*/
+    margin-bottom: 20px; 
 }
 .add{
     margin: 5px;
@@ -212,6 +220,10 @@ ul li code{
 }
 ul{
     list-style-type: none;
+    /* padding-left: 5.5rem; */
+}
+ul .padding{
+    padding-left: 5.5rem;
 }
 #copy{
     padding-top: 2rem;
@@ -312,7 +324,7 @@ a i {
 }
 @media (max-width:600px) {
     .signemail #email{
-        width: 9.5rem;
+        width: 8rem;
         height: 3.5rem;
     }
 }
@@ -420,5 +432,13 @@ a i {
     .expert{
         display: flex;
         flex-direction: column;
+    }
+}
+@media (max-width:1399px) {
+    .answer{
+        padding-left: 0;
+    }
+    ul .padding{
+        padding-left: 0;
     }
 }
