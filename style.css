@@ -370,6 +370,14 @@ a i {
         flex-wrap: wrap;
     }
 }
+@media (max-width:1150px) {
+    #fundamentals .lorem{
+        margin-top: 0;
+    }
+    #fundamental .lore{
+        margin-top: 0;
+    }
+}
 @media (max-width:800px) {
     #fundamentals .Learn img{
         margin-top: 80px;
