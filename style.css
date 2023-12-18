@@ -170,7 +170,6 @@ span{
 }
 .answer{
     margin: 1rem;
-    /* margin-left: 8rem; */
     padding-left: 7rem;
 }
 #instructors{
@@ -178,12 +177,6 @@ span{
     background-color: #0d6efd;
     text-align: center;
 }
-/* .expert{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-} */
 .expert{
     display: flex;
     align-items: center;
@@ -203,9 +196,6 @@ h6{
     width: 305px;
     height: 350px;
     color: #000;
-    /* margin-top: 10px;
-    margin-left: 35px;
-    margin-right: 35px;*/
     margin-bottom: 20px; 
 }
 .add{
@@ -220,7 +210,6 @@ ul li code{
 }
 ul{
     list-style-type: none;
-    /* padding-left: 5.5rem; */
 }
 ul .padding{
     padding-left: 5.5rem;
@@ -234,15 +223,12 @@ ul .padding{
     justify-content: center;
     align-items: center;
 }
+#copy a i{
+    float: right;
+}
 a i {
     font-size: 35px;
 }
-/* @media (max-width:1200px) and (min-width:600px) {
-    #child #left{
-        padding-left: 6rem;
-        padding-right: 6rem;
-    }
-} */
 @media (max-width:400px) {
     html,body{
         width: 100%;
